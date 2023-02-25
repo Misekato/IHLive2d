@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        height: 87vh;
+      }
+      .container {
+        width: 100%;
+        height: 100%
+      }
+      .bg-antiquewhite {
+         background-color: antiquewhite;
+	<!--	 background-image: url("../assets/bg/bg_banama_2.png"); -->
+		 background-repeat: no-repeat;
+		 background-size: 100%;  
+      }
+        .btnGenericText {
+            white-space: nowrap;
+            height: 10px;
+            text-align: center;
+            vertical-align: middle;
+            display: table-cell;
+            background-color: #24252d;
+            border-style: solid;
+            border-color: #5c5d70;
+            border-width: 1px;
+            cursor: pointer;
+            padding: 0px 3px 0px 3px;
+            font-size: 2px;
+            color: white;
+            margin-bottom: 2px;
+            margin-left: 2px;
+        }
+        .btnGenericText:hover {
+            box-shadow: 0px 0px 10px white;
+        }
+        .btnGenericText:active {
+            box-shadow: 1px 1px 4px white, -1px 1px 4px white, 1px -1px 4px white, -1px -1px 4px white;
+        }
+		
+	    .selector {
+            width: 80%;
+            height: 90%;
+            position: absolute;
+            left: 10%;
+            background-color: #5c5d70;
+            overflow-y: auto;
+            padding: 10px;
+            border-radius: 3px;
+        }
+        .thumbbutton {
+            cursor: pointer;
+            height: 200px;
+            width: 180px;
+            display: inline-block;
+            margin-top: 10px;
+            margin-left: 10px;
+            border-radius: 3px;
+			background-repeat: no-repeat;
+        }
+		.thumbbuttonchar {
+            cursor: pointer;
+            height: 200px;
+            width: 180px;
+            display: inline-block;
+            margin-top: 20px;
+            margin-left: 20px;
+            border-radius: 3px;
+			background-repeat: no-repeat;
+        }
+    </style>
+  </head>
+  
+	<div align="center" >
+                <h1 style="margin-bottom: 5px; font-size: 25px">Live2D Viewer</h1>
+    </div>
+			
+	<div align="center" style="margin-bottom: 5px;">
+        <div class="btnGenericText" onclick="onSelectBG()" style="font-size: 15px; height: 30px;"><b>Change Background</b></div>
+		<div class="btnGenericText" onclick="SelectChar()" style="font-size: 15px; height: 30px;"><b>Change Character</b></div>
+		<select class="selectCharacter form-control" style="background-color: #24252d; color: #ffffff; display: inline-block;"></select>
+    </div>
+			
+
+	<div align="center">
+        <div class="form-group" style="display: inline-block;">
+            <label><b>Select Motion </b></label>
+				<select class="selectMotion form-control" style="background-color: #24252d; color: #ffffff;"></select>
+     
+        </div>
+    </div>
+	  	
+	<div align="center">
+        <div class="form-group" style="display: inline-block;">
+			<label><b>Generally - SSR characters only have idle animation, UR 1st skin has 1 'act', 2nd skin has 2-3</b><label>	
+	          </div>
+    </div>
+	
+	<div align="center">
+	  <div class="form-group" style="display: inline-block;">
+		<label><b>Enable mouse movement tracking (reload for toggle to take effect): </b><label>
+			<input type="checkbox" id="mousetrack" name="mousetrack" value="yes"> Yes<br>
+		<label><b>Background Music: </b><label>
+			<input type="checkbox" id="backgroundmusic" name="backgroundmusic" value="yes"> Yes<br>
+	  </div>
+	</div>
+	
+	
+
+  <body>
+    <div id="container-1" class="container bg-antiquewhite">
+      <canvas id="canvas-1"></canvas>
+    </div>
+    </div>
+	
+	</body>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	
+	<!-- Include Cubism Components. -->
+    <script src="https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js"></script>
+	<script src="js/live2d.min.js"></script> <!-- Sourced from https://github.com/guansss/pixi-live2d-display credits to guansss -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.0.3/pixi.min.js"></script> 
+    <script src="js/index.min.js"></script> <!-- Sourced from https://github.com/guansss/pixi-live2d-display credits to guansss - don't actually need to support live2d 2.0 but whatever -->
+	
+	<!-- User's Script -->
+	<!-- Will add backgrounds if doesn't kill bandwidth-->
+	<script src = "js/charData.js"></script>
+	<script src= "js/live2dconstructor.js"> </script>
+
+
+<!-- index.html heavily based on Azur Lane live2d display sourced: 	https://gitgud.io/alg-wiki/azurlanel2dviewer -->
+	
+</html>
