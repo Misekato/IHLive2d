@@ -18,11 +18,11 @@
 //Character list options - possibly have this dynamically generated based on folder list
 
 var charlist = [
-	"akechi","ares","artemis","arthur","ashikaga","beethoven","benkei","carmen","catherine","charlemagne",	
+	"akechi","ares","artemis","arthur","ashikaga","beethoven","benkei","caesar","carmen","catherine","charlemagne",	
 	"chiyome","cleo","columbus","copernicus","daji","dante","daqiaoxiaoqiao","darwin","date","davinci","donquixote","enako","hannibal",
 	"helen","hercules","himiko","honda","honoka","huangzhong","huatuo","hugo","izumo","jingke","kasumi","katsuie",
 	"lancelot","loki","lubu","marierose","medea","mendel","merlin","michelangelo","minamoto","misaki","miyamoto","mobius",
-	"morgana","mozart","napoleon","nene",
+	"morgana","mozart","napoleon","nene","nero",
 	"niwa","octavius","odanobunaga","pandora","plato","prometheus","raphael","regin","remus","richard",
 	"robinhood","romulus","shakespeare","simayi","solomon","taishi","takeda","takenaka","tamamo","thor",
 	"tokugawa","watt","xuchu","yagyuu","zhaoyun","zhenji","zhouyu",
@@ -36,6 +36,7 @@ var charData = [
 	"ashikaga_1","ashikaga_2","ashikaga_ssr_1","ashikaga_ssr_2",
 	"beethoven_1","beethoven_2",
 	"benkei_1","benkei_2","benkei_3",
+	"caesar_1","caesar_2",
 	"carmen_1","carmen_2","carmen_ssr_1","carmen_ssr_2",
 	"catherine_1","catherine_2","catherine_3","catherine_ur",
 	"charlemagne_1","charlemagne_2",
@@ -80,6 +81,7 @@ var charData = [
 	"mozart_1","mozart_2","mozart_3",
 	"napoleon_1","napoleon_2","napoleon_3",
 	"nene_1","nene_2","nene_3",
+	"nero_1","nero_2",
 	"niwa_1","niwa_2","niwa_ssr_1","niwa_ssr_2",
 	"octavius_ur","octavius_wedding","octavius_1","octavius_2","octavius_3",
 	"odanobunaga_skin",

@@ -13,7 +13,7 @@ checkbox.addEventListener('change', function(event) {
 	
 //Add event for background music
 
-const checkbox_music = document.getElementById("backgroundmusic");
+var checkbox_music = document.getElementById("backgroundmusic");
 const audio = new Audio("assets/audio/shuqing.mp3");
 
 checkbox_music.addEventListener("change", function() {
@@ -23,6 +23,18 @@ checkbox_music.addEventListener("change", function() {
 	
   } else {
     audio.pause();
+  }
+});
+
+var checkbox_voice = document.getElementById("voice");
+let voice_setting = 'no';
+
+checkbox_voice.addEventListener("change", function() {
+  if (checkbox_voice.checked) {
+    voice_setting = 'yes'
+	
+  } else {
+    voice_setting = 'no';
   }
 });
 
@@ -88,6 +100,20 @@ const {
 		scale = 0.3;
 		
 		} else if (selectedOption == prior_character) {currentModel.scale.set(fixed_scale)}
+		
+		//Add voice
+		
+		const index = selectedOption.indexOf("_");
+		if (index !== -1) {
+			const charname = selectedOption.substr(0, index);
+		}
+	
+		if (motion != 'idle') {
+			var listsound = ['introduction','start','bond1','bond2','bond3','bond4','bond5','bond6','bond7','bond8'];
+			var rand = listsound[~~(Math.random() * listsound.length)];
+			
+			currentModel.internalModel.settings.motions[motion_name][0].Sound = 'https://raw.githubusercontent.com/Misekato/TestIHAud/main/char/' + charname + '/' + randsound + '.mp3'
+			}
 		
 		//Manually adjust scale for some characters
 		
@@ -183,8 +209,13 @@ const {
 			
 			var listmotion = ['idle','act_touch01','act_touch02'];
 			var rand = listmotion[~~(Math.random() * listmotion.length)];
+					
+		if (rand != 'idle') {
+			var listsound = ['introduction','start','bond1','bond2','bond3','bond4','bond5','bond6','bond7','bond8'];
+			var randsound = listsound[~~(Math.random() * listsound.length)];
 			
-
+			currentModel.internalModel.settings.motions[rand][0].Sound = 'https://raw.githubusercontent.com/Misekato/TestIHAud/main/char/' + charname + '/' + randsound + '.mp3' 
+			}
 			
 			currentModel.internalModel.motionManager.startMotion(rand,0,MotionPriority.FORCE)
 		})
