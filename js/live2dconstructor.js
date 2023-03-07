@@ -104,9 +104,10 @@ const {
 		//Add voice
 		
 		const index = selectedOption.indexOf("_");
-		if (index !== -1) {
-			const charname = selectedOption.substr(0, index);
-		}
+		const charname = selectedOption.substr(0, index);
+		//if (index !== -1) {
+		//	const charname = selectedOption.substr(0, index);
+		//}
 	
 		if (motion != 'idle') {
 			var listsound = ['introduction','start','bond1','bond2','bond3','bond4','bond5','bond6','bond7','bond8'];
@@ -138,6 +139,8 @@ const {
 			}
 */	
 		//Default model settings - might need to tidy up/ allow options on page
+		
+
 			
         currentModel.interactive = true;
         currentModel.anchor.set(0.5, 0.5);
