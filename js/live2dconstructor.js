@@ -112,7 +112,7 @@ const {
 			var listsound = ['introduction','start','bond1','bond2','bond3','bond4','bond5','bond6','bond7','bond8'];
 			var rand = listsound[~~(Math.random() * listsound.length)];
 			
-			currentModel.internalModel.settings.motions[motion_name][0].Sound = 'https://raw.githubusercontent.com/Misekato/TestIHAud/main/char/' + charname + '/' + randsound + '.mp3'
+			//currentModel.internalModel.settings.motions[motion_name][0].Sound = 'https://raw.githubusercontent.com/Misekato/TestIHAud/main/char/' + charname + '/' + randsound + '.mp3'
 			}
 		
 		//Manually adjust scale for some characters
@@ -214,7 +214,7 @@ const {
 			var listsound = ['introduction','start','bond1','bond2','bond3','bond4','bond5','bond6','bond7','bond8'];
 			var randsound = listsound[~~(Math.random() * listsound.length)];
 			
-			currentModel.internalModel.settings.motions[rand][0].Sound = 'https://raw.githubusercontent.com/Misekato/TestIHAud/main/char/' + charname + '/' + randsound + '.mp3' 
+			//currentModel.internalModel.settings.motions[rand][0].Sound = 'https://raw.githubusercontent.com/Misekato/TestIHAud/main/char/' + charname + '/' + randsound + '.mp3' 
 			}
 			
 			currentModel.internalModel.motionManager.startMotion(rand,0,MotionPriority.FORCE)
