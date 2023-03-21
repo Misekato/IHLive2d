@@ -87,7 +87,7 @@ var charData = [
 	"octavius_ur","octavius_wedding","octavius_1","octavius_2","octavius_3",
 	"odanobunaga_skin",
 	"pandora_1","pandora_2","pandora_ssr_1","pandora_ssr_2",
-	"plato_1","plato_2",
+	"plato_1","plato_2","plato_ssr_1","plato_ssr_2",
 	"prometheus_1","prometheus_2","prometheus_ssr_1","prometheus_ssr_2",
 	"raphael_1","raphael_2","raphael_3",
 	"regin_ur","regin_1","regin_2","regin_3",
