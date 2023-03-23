@@ -19,7 +19,7 @@
 
 var charlist = [
 	"akechi","ares","artemis","arthur","ashikaga","beethoven","benkei","caesar","carmen","catherine","charlemagne",	
-	"chiyome","cleo","columbus","copernicus","daji","dante","daqiaoxiaoqiao","darwin","date","davinci","donquixote","enako","hannibal",
+	"chiyome","cleo","columbus","copernicus","daji","dante","daqiaoxiaoqiao","darwin","date","davinci","donquixote","enako","freya","hannibal",
 	"helen","hercules","himiko","honda","honoka","huangzhong","huatuo","hugo","izumo","jingke","kasumi","katsuie",
 	"lancelot","loki","lubu","marierose","medea","mendel","merlin","michelangelo","minamoto","misaki","miyamoto","mobius","mordred",
 	"morgana","mozart","napoleon","nene","nero",
