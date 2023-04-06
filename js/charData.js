@@ -62,7 +62,7 @@ var charData = [
 	"huangzhong_1","huangzhong_2","huangzhong_3","huangzhong_ur",
 	"huatuo_1","huatuo_2","huatuo_3",
 	"hugo_1","hugo_2","hugo_3",
-	"iori_1","iori_2",
+	"iori_1","iori_2","iori_ssr_1","iori_ssr_2",
 	"izumo_1","izumo_2","izumo_3","izumo_ur",
 	"jingke_1","jingke_2","jingke_3","jingke_ur",
 	"kasumi_1","kasumi_2","kasumi_3",
