@@ -24,7 +24,7 @@ var charlist = [
 	"lancelot","loki","lubu","marierose","medea","mendel","merlin","michelangelo","minamoto","misaki","miyamoto","mobius","mordred",
 	"morgana","mozart","napoleon","nene","nero",
 	"niwa","octavius","odanobunaga","pandora","plato","prometheus","raphael","regin","remus","richard",
-	"robinhood","romulus","shakespeare","simayi","solomon","taishi","takeda","takenaka","tamamo","thor",
+	"robinhood","romulus","set","shakespeare","simayi","solomon","taishi","takeda","takenaka","tamamo","thor",
 	"tokugawa","watt","xuchu","yagyuu","zhaoyun","zhenji","zhouyu",
 ];
 
@@ -96,6 +96,7 @@ var charData = [
 	"romulus_1","romulus_2","romulus_3",
 	"richard_ur", "richard_1","richard_2","richard_3",
 	"robinhood_ur","robinhood_1","robinhood_2","robinhood_3",
+	"set_2",
 	"shakespeare_1","shakespeare_2","shakespeare_3",
 	"simayi_ur","simayi_1","simayi_2","simayi_3",
 	"solomon_1","solomon_2",
