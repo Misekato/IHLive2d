@@ -71,7 +71,7 @@ var charData = [
 	"loki_1","loki_2","loki_3","loki_ur",
 	"lubu_1","lubu_2",
 	"marierose_1","marierose_2","marierose_3",
-	"medea_1","medea_2",
+	"medea_1","medea_2","medea_ssr_1","medea_ssr_2",
 	"merlin_1","merlin_2","merlin_3","merlin_special","merlin_ur",
 	"mendel_1","mendel_2","mendel_3",
 	"michelangelo_1","michelangelo_2","michelangelo_3","michelangelo_ur",
