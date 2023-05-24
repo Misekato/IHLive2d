@@ -83,7 +83,7 @@ var charData = [
 	"mozart_1","mozart_2","mozart_3",
 	"napoleon_1","napoleon_2","napoleon_3",
 	"nene_1","nene_2","nene_3",
-	"nero_1","nero_2",
+	"nero_1","nero_2","nero_ssr_1","nero_ssr_2",
 	"niwa_1","niwa_2","niwa_ssr_1","niwa_ssr_2",
 	"octavius_ur","octavius_wedding","octavius_1","octavius_2","octavius_3",
 	"odanobunaga_skin",
