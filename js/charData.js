@@ -25,7 +25,7 @@ var charlist = [
 	"morgana","mozart","napoleon","nene","nero",
 	"niwa","octavius","odanobunaga","pandora","plato","prometheus","raphael","regin","remus","richard",
 	"robinhood","romulus","set","shakespeare","simayi","solomon","taishi","takeda","takenaka","taira","tamamo","thor",
-	"tokugawa","uesugi","watt","xuchu","yagyuu","zhaoyun","zhenji","zhouyu",
+	"tokugawa","uesugi","venus","watt","xuchu","yagyuu","zhaoyun","zhenji","zhouyu",
 ];
 
 
@@ -108,6 +108,7 @@ var charData = [
 	"tokugawa_1","tokugawa_2","tokugawa_3",
 	"thor_ur","thor_1","thor_2","thor_3",
 	"uesugi_1","uesugi_2",
+	"venus_1","venus_2",
 	"watt_1","watt_2","watt_3",
 	"xuchu_1","xuchu_2","xuchu_3",
 	"yagyuu_1","yagyuu_2","yagyuu_3","yagyuu_swimsuit",
