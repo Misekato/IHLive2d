@@ -18,7 +18,7 @@
 //Character list options - possibly have this dynamically generated based on folder list
 
 var charlist = [
-	"akechi","ares","artemis","arthur","ashikaga","beethoven","benkei","caesar","carmen","catherine","charlemagne",	
+	"akechi","aphrodite","ares","artemis","arthur","ashikaga","beethoven","benkei","caesar","carmen","catherine","charlemagne",	
 	"chiyome","cleo","columbus","copernicus","daji","dante","daqiaoxiaoqiao","darwin","date","davinci","donquixote","dracula","enako","freya",
 	"hannibal","hanzo",
 	"helen","hercules","himiko","honda","honoka","huangzhong","huatuo","hugo","iori","iori_ss_","isis","izumo","jingke","kasumi","katsuie","kongming",
