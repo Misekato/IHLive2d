@@ -95,7 +95,7 @@ var charData = [
 	"niwa_1","niwa_2","niwa_ssr_1","niwa_ssr_2",
 	"octavius_ur","octavius_wedding","octavius_1","octavius_2","octavius_3",
 	"odanobunaga_skin",
-	"oichi_1","oichi_2",
+	"oichi_1","oichi_2","oichi_ssr_1","oichi_ssr_2",
 	"pandora_1","pandora_2","pandora_ssr_1","pandora_ssr_2",
 	"plato_1","plato_2","plato_ssr_1","plato_ssr_2",
 	"prometheus_1","prometheus_2","prometheus_ssr_1","prometheus_ssr_2",
