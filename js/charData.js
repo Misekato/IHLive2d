@@ -112,7 +112,7 @@ var charData = [
 	"takeda_1","takeda_2","takeda_ssr_1","takeda_ssr_2",
 	"taira_1","taira_2","taira_ssr_1","taira_ssr_2",
 	"taishi_1","taishi_2","taishi_3",
-	"takenaka_ur","takenaka_1","takenaka_2","takenaka_3",
+	"takenaka_ur","takenaka_1","takenaka_2","takenaka_3","takenaka_4",
 	"tamamo_swimsuit","tamamo_1","tamamo_2","tamamo_3",
 	"tokugawa_1","tokugawa_2","tokugawa_3",
 	"thor_ur","thor_1","thor_2","thor_3",
