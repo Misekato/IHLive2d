@@ -25,7 +25,7 @@ var charlist = [
 	"lancelot","loki","lubu","marierose","medea","medusa","mendel","merlin","michelangelo","minamoto","misaki","miyamoto","mobius","mordred",
 	"morgana","mozart","napoleon","nene","nero",
 	"niwa","octavius","odanobunaga","oichi","pandora","plato","prometheus","raphael","regin","remus","richard",
-	"robinhood","romulus","set","shakespeare","simayi","solomon","taishi","takeda","takenaka","taira","tamamo","thor",
+	"robinhood","romulus","schrodinger","set","shakespeare","simayi","solomon","taishi","takeda","takenaka","taira","tamamo","thor",
 	"tokugawa","uesugi","venus","watt","xuchu","yagyuu","yoshiaki","zhangfei","zhaoyun","zhenji","zhouyu",
 ];
 
@@ -105,6 +105,7 @@ var charData = [
 	"romulus_1","romulus_2","romulus_3","romulus_ur",
 	"richard_ur", "richard_1","richard_2","richard_3",
 	"robinhood_ur","robinhood_1","robinhood_2","robinhood_3","robinhood_4",
+	"schrodinger_1","schrodinger_2",
 	"set_1","set_2","set_ssr_1","set_ssr_2",
 	"shakespeare_1","shakespeare_2","shakespeare_3",
 	"simayi_ur","simayi_1","simayi_2","simayi_3",
@@ -122,7 +123,7 @@ var charData = [
 	"xuchu_1","xuchu_2","xuchu_3",
 	"yagyuu_1","yagyuu_2","yagyuu_3","yagyuu_swimsuit",
 	"yoshiaki_1","yoshiaki_2",
-	"zhouyu_1","zhouyu_2","zhouyu_ssr_1","zhouyu_ssr_2",
+	"zhouyu_1","zhouyu_2","zhouyu_3","zhouyu_ssr_1","zhouyu_ssr_2",
 	"zhangfei_1","zhangfei_2","zhangfei_ssr_1","zhangfei_ssr_2",
 	"zhaoyun_ur",
 	"zhenji_ur","zhenji_1","zhenji_2","zhenji_3",
