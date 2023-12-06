@@ -21,7 +21,7 @@ var charlist = [
 	"akechi","aphrodite","ares","artemis","arthur","ashikaga","beethoven","benkei","caesar","carmen","catherine","charlemagne",	
 	"chiyome","cleo","columbus","copernicus","daji","dante","daqiaoxiaoqiao","darwin","date","davinci","donquixote","dracula","enako","freya",
 	"hannibal","hanzo",
-	"helen","hercules","himiko","honda","honoka","huangzhong","huatuo","hugo","iori","iori_ss_","isis","izumo","jingke","kasumi","katsuie","kongming",
+	"helen","hercules","himiko","honda","honoka","huangzhong","huatuo","hugo","iori","iori_ss_","christ_iori","isis","izumo","jingke","kasumi","katsuie","kongming",
 	"lancelot","loki","lubu","marierose","medea","medusa","mendel","merlin","michelangelo","minamoto","misaki","miyamoto","mobius","mordred",
 	"morgana","mozart","napoleon","nene","nero",
 	"niwa","octavius","odanobunaga","oichi","pandora","plato","prometheus","raphael","regin","remus","richard",
@@ -43,6 +43,7 @@ var charData = [
 	"catherine_1","catherine_2","catherine_3","catherine_ur",
 	"charlemagne_1","charlemagne_2","charlemagne_ssr_1","charlemagne_ssr_2",
 	"chiyome_1","chiyome_2","chiyome_3","chiyome_4","chiyome_ur",
+	"christ_iori_1","christ_iori_2","christ_iori_4","christ_iori_ur",
 	"cleo_1","cleo_2","cleo_ssr_1","cleo_ssr_2",
 	"columbus_1","columbus_2","columbus_3","columbus_valentine",
 	"copernicus_1","copernicus_2","copernicus_3",
@@ -285,6 +286,7 @@ var motion = {
 	"act_touch06": "act_touch06",
 	"act_touch07": "act_touch07",
 	"idle": "idle",
+	"idle1": "idle1",
 	
 
 };
