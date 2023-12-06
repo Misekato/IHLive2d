@@ -43,7 +43,7 @@ var charData = [
 	"catherine_1","catherine_2","catherine_3","catherine_ur",
 	"charlemagne_1","charlemagne_2","charlemagne_ssr_1","charlemagne_ssr_2",
 	"chiyome_1","chiyome_2","chiyome_3","chiyome_4","chiyome_ur",
-	"christ_iori_ssr_1","christ_iori_ssr_2","christ_iori_ssr_3","christ_iori_ur",
+	"christ_iori_1","christ_iori_2","christ_iori_3","christ_iori_ur",
 	"cleo_1","cleo_2","cleo_ssr_1","cleo_ssr_2",
 	"columbus_1","columbus_2","columbus_3","columbus_valentine",
 	"copernicus_1","copernicus_2","copernicus_3",
