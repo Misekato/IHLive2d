@@ -87,7 +87,7 @@ var charData = [
 	"minamoto_1","minamoto_2","minamoto_3",
 	"misaki_1","misaki_2","misaki_3",
 	"mobius_1","mobius_2","mobius_ssr_1","mobius_ssr_2",
-	"mordred_1","mordred_2",
+	"mordred_1","mordred_2","mordred_ssr_1","mordred_ssr_2",
 	"morgana_1","morgana_2","morgana_3",
 	"mozart_1","mozart_2","mozart_3",
 	"napoleon_1","napoleon_2","napoleon_3",
