@@ -33,7 +33,7 @@ var charlist = [
 var charData = [
 	"akechi_swimsuit",
 	"akechi_1","akechi_2","akechi_3","ares_1","ares_2","ares_3","ares_ur","artemis_1","artemis_2","artemis_3",
-	"aphrodite_1","aphrodite_2",
+	"aphrodite_1","aphrodite_2","aphrodite_ssr_1","aphrodite_ssr_2",
 	"arthur_1","arthur_2","arthur_ssr_1","arthur_ssr_2",
 	"ashikaga_1","ashikaga_2","ashikaga_ssr_1","ashikaga_ssr_2",
 	"beethoven_1","beethoven_2","beethoven_ssr_1","beethoven_ssr_2",
