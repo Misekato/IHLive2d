@@ -114,7 +114,7 @@ var charData = [
 	"siegfried_1","siegfried_2",
 	"simayi_ur","simayi_1","simayi_2","simayi_3",
 	"solomon_1","solomon_2",
-	"takeda_1","takeda_2","takeda_ssr_1","takeda_ssr_2",
+	"takeda_1","takeda_2","takeda_ssr_1","takeda_ssr_2","takeda_ssr_3",
 	"taira_1","taira_2","taira_ssr_1","taira_ssr_2",
 	"taishi_1","taishi_2","taishi_3",
 	"takenaka_ur","takenaka_1","takenaka_2","takenaka_3","takenaka_4",
