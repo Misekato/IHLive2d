@@ -24,7 +24,7 @@ var charlist = [
 	"helen","hercules","himiko","honda","honoka","huangzhong","huatuo","hugo","iori","iori_ss_","christ_iori","isis","izumo","jingke","kasumi","katsuie","kongming",
 	"lancelot","loki","lubu","magellan","marierose","medea","medusa","mendel","merlin","michelangelo","minamoto","misaki","miyamoto","mobius","mordred",
 	"morgana","mozart","napoleon","nene","nero",
-	"niwa","octavius","odanobunaga","oichi","pandora","plato","prometheus","raphael","regin","remus","richard",
+	"niwa","octavius","oda","oichi","pandora","plato","prometheus","raphael","regin","remus","richard",
 	"robinhood","romulus","schrodinger","set","shakespeare","siegfried","simayi","solomon","taishi","takeda","takenaka","taira","tamamo","thor",
 	"tokugawa","uesugi","venus","watt","xuchu","yagyuu","yoshiaki","yoshimoto","zhangfei","zhaoyun","zhenji","zhouyu",
 ];
@@ -97,7 +97,7 @@ var charData = [
 	"nero_1","nero_2","nero_ssr_1","nero_ssr_2",
 	"niwa_1","niwa_2","niwa_ssr_1","niwa_ssr_2",
 	"octavius_ur","octavius_wedding","octavius_1","octavius_2","octavius_3",
-	"odanobunaga_skin",
+	"odanobunaga_skin","oda_1","oda_2","oda_3",
 	"oichi_1","oichi_2","oichi_ssr_1","oichi_ssr_2",
 	"pandora_1","pandora_2","pandora_ssr_1","pandora_ssr_2",
 	"plato_1","plato_2","plato_ssr_1","plato_ssr_2",
