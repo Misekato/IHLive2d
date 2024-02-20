@@ -20,7 +20,7 @@
 var charlist = [
 	"akechi","aphrodite","ares","artemis","arthur","ashikaga","barbatos","beethoven","benkei","caesar","carmen","catherine","charlemagne",	
 	"chiyome","cleo","columbus","copernicus","daji","dante","daqiaoxiaoqiao","darwin","date","davinci","donquixote","dracula","enako","freya",
-	"hannibal","hanzo",
+	"hannibal","hanzo","heimdall",
 	"helen","hercules","himiko","honda","honoka","huangzhong","huatuo","hugo","iori","iori_ss_","christ_iori","isis","izumo","jingke","kasumi","katsuie","kongming",
 	"lancelot","loki","lubu","magellan","marierose","medea","medusa","mendel","merlin","michelangelo","minamoto","misaki","miyamoto","mobius","mordred",
 	"morgana","mozart","napoleon","nene","nero",
@@ -60,6 +60,7 @@ var charData = [
 	"freya",
 	"hannibal_1","hannibal_2","hannibal_3","hannibal_ur",
 	"hanzo_1","hanzo_2","hanzo_ssr_1","hanzo_ssr_2",
+	"heimdall_1","heimdall_2",
 	"helen_1","helen_2","helen_3","helen_christmas","helen_ur",
 	"hercules_1","hercules_2","hercules_ssr_1","hercules_ssr_2",
 	"himiko_1","himiko_2","himiko_3","himiko_ur",
